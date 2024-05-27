@@ -5,8 +5,12 @@
 }
 
 body {
-    background-color: #437b80;
+    background-color: #EEEEEE;
     font-size: 17px;
+}
+
+h3::after {
+    content: '\1f4d6';
 }
 
 div.alg-stry {
@@ -19,7 +23,7 @@ div.alg-stry h3, div.alg-stry h4 {
 }
 
 div.alg-stry span#algo {
-    color: #005562;
+    color: #7E8EF1;
 }
 
 div.alg-stry span#mtk {
