@@ -1,0 +1,56 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Comic Neue", cursive;
+    font-size: 1.5vw;
+    margin: 2% 4%;
+    background-color: #efefef;
+}
+
+h3 {
+    text-align: center;
+}
+
+h3::after {
+    content: " \1F4D7";
+}
+
+ol.cheatsheet-summary {
+    list-style-type: decimal;
+}
+
+ul.gitLog-options, ul.gitCheckout-options, ul.gitRemote-options {
+    list-style: none inside;
+    margin-left: 2%;
+}
+
+img.gitlogo {
+    float: right;
+    width: 35%;
+    height: auto;
+}
+
+span#sentenceBold {
+    font-weight: 900;
+    animation: TeksNgilangdikit 10s cubic-bezier(0.755, 0.05, 0.855, 0.06) 10s infinite forwards;
+}
+
+span#sentenceBold:hover {
+    cursor: pointer;
+}
+
+@keyframes TeksNgilangdikit {
+    0% {
+        opacity: 0.6;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        color: #000000;
+    }
+}
