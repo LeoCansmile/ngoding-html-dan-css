@@ -10,11 +10,11 @@
     <body>
         <h3>Cheatsheet Git</h3>
         <ol class="cheatsheet-summary">
-            <li><span id="sentenceBold"title="Git config --global user.name 'Sipulan' ">Git config --global user.name "[Nama pengguna]"</span> : Mengatur nama pengguna yang di gunakan untuk sebuah git di seluruh sistem secara global</li>
-            <li><span id="sentenceBold"title="Git config --global user.email 'sipulan556@gmail.com'">Git config --global user.email "[Email pengguna]"</span> : Mengatur email pengguna yang di gunakan untuk sebuah git di seluruh sistem secara global</li>
+            <li><span id="sentenceBold"title="Git config --global user.name 'Sipulan' ">Git config --global user.name "[Nama pengguna]"</span> : Mengatur nama pengguna yang di gunakan untuk sebuah git di seluruh sistem secara global.</li>
+            <li><span id="sentenceBold"title="Git config --global user.email 'sipulan556@gmail.com'">Git config --global user.email "[Email pengguna]"</span> : Mengatur email pengguna yang di gunakan untuk sebuah git di seluruh sistem secara global.</li>
             <li><span id="sentenceBold">Git init</span> : Membuat repository baru atau menginisialisasi repository git didalam direktori yang ada.</li>
             <li><span id="sentenceBold">Git add</span> : Menambahkan perubahan pada file ke staging area ke dalam repository git</li>
-            <li><span id="sentenceBold"title="Git commit -m 'Menambahkan file baru index.html'">Git commit -m "[Isi Commit]"</span> : Membuat isi commit atau merekam pesan perubahan baru pada sebuah file yang sebelumnya sudah di tambahkan ke staging area dengan perintah <span id="sentenceBold"title="Git add . atau Git add namafile.txt ">Git add</span></li>
+            <li><span id="sentenceBold"title="Git commit -m 'Menambahkan file baru index.html'">Git commit -m "[Isi Commit]"</span> : Membuat isi commit atau merekam pesan perubahan baru pada sebuah file yang sebelumnya sudah di tambahkan ke staging area dengan perintah <span id="sentenceBold"title="Git add . atau Git add namafile.txt ">Git add</span>.</li>
             <li><span id="sentenceBold">Git log</span> : Menampilkan riwayat history sebuah file di dalam repository git yang telah di commit menggunakan git commit</li>
             <li><span id="sentenceBold">Git log --all --decorate --oneline --graph</span> : Perintah yang digunakan untuk menampilkan riwayat komit (commit history) dalam repositori Git dengan format yang lebih ringkas dan grafis. Berikut adalah penjelasan singkat tentang opsi yang digunakan:
                 <img src="img/git.png" alt="git-logo"title="GIT"class="gitlogo">
@@ -29,7 +29,7 @@
                 <ul class="gitCheckout-options">
                     <li>&#128678; <span id="sentenceBold">Pindah antar cabang atau Branches</span> : Anda dapat menggunakan git checkout untuk beralih dari satu cabang ke cabang lainnya dalam repositori Git Anda. Misalnya, Anda dapat menggunakan <span id="sentenceBold"title="Git checkout Project1">Git checkout [nama branch]</span> untuk beralih ke cabang yang bernama [Nama branch].</li>
                     <li>&#128678; <span id="sentenceBold">Mengembalikan file yang terhapus sebelumnya dengan commit</span> : Kamu bisa menggunakan <span id="sentenceBold"title="Git checkout 2daze -- namafileyanghilang.html">git checkout [NomorCommit5Digit] -- [namaFileYangHilang]</span> untuk mengembalikan file yang hilang sebelumnya terakhir di commit</li>
-                    <li>&#128678; <span id="sentenceBold">Pindah ke filenya dengan nomor commit</span> : Anda bisa mengubah arah headnya ke file tunggal contoh <span id="sentenceBold"title="Git checkout 2daze">git checkout [NomorCommit5Digit]</span></li>
+                    <li>&#128678; <span id="sentenceBold">Pindah ke filenya dengan nomor commit</span> : Anda bisa mengubah arah headnya ke file tunggal contoh <span id="sentenceBold"title="Git checkout 2daze">git checkout [NomorCommit5Digit]</span>.</li>
                     <li>&#128678; <span id="sentenceBold">Membuat Cabang Baru</span> : Anda juga dapat menggunakan <span id="sentenceBold"title="Git checkout -b Project1">git checkout -b [Nama Branch]</span> untuk membuat cabang baru dan sekaligus beralih ke cabang tersebut</li>
                 </ul>
             </li>
@@ -37,18 +37,18 @@
                 <ul class="gitRemote-options">
                     <li>&#128678; <span id="sentenceBold"title="Git remote add sipulan https://github.com/sipulan/project1">Git remote add [nama remote] [link repository github]</span> : Menambahkan repositori git eksternal dengan nama tertentu dan URL yang di tentukan.</li>
                     <li>&#128678; <span id="sentenceBold"title="Git remote remove sipulan">Git remote remove [nama remote]</span> : Menghapus nama remote repository git</li>
-                    <li>&#128678; <span id="sentenceBold"title="contoh maka akan di tunjukkan: Origin https://sipulan@github.com/sipulan/project1 (fetch), origin https://sipulan@github.com/sipulan/project1 (push)">Git remote -v</span> atau <span id="sentenceBold">Git remote show</span> : Menampilkan daftar remote repository github yang terhubung dengan repository lokal beserta URL-nya.</li>
+                    <li>&#128678; <span id="sentenceBold"title="contoh maka akan di tunjukkan: Origin https://sipulan@github.com/sipulan/project1 (fetch), origin https://sipulan@github.com/sipulan/project1 (push)">Git remote -v</span> atau <span id="sentenceBold">Git remote show</span> : Menampilkan daftar remote repository github yang terhubung dengan repository lokal beserta URL-nya</li>
                     <li>&#128678; <span id="sentenceBold"title="Git remote rename sipulan sicepat">Git remote rename [nama remote lama] [nama remote baru]</span> : Mengganti nama remote lama dengan nama remote baru.</li>
                     <li>&#128678; <span id="sentenceBold"title="Git remote set-url sipulan https://23asdjifhffhgsgsew_j@github.com/sipulan/project1">Git remote set-url [nama remote] [https://[token generate]@github/[owner]/[Nama repository]]</span> : Di gunakan untuk memberikan akses remote github ke direktori lokal dengan token autentifikasi</li>
                 </ul>
             </li>
-            <li><span id="sentenceBold">Git fetch</span> : Di gunakan untuk mengecek semua perubahan file pada repositori github</li>
-            <li><span id="sentenceBold"title="Untuk pertama kali bisa menggunakan Git push -u origin atau sipulan master">Git push</span> : Mengirimkan perubahan file repository local ke repository remote</li>
-            <li><span id="sentenceBold">Git pull</span> : Mengambil perubahan dari repositori remote dan langsung menggabungkannya ke cabang lokal yang sedang aktif. sebenarnya ini adalah kombinasi dari git fetch dan git merge</li>
-            <li><span id="sentenceBold"title="Git branch project1">Git branch</span> : Untuk membuat nama cabang baru sama seperti perintah <span id="sentenceBold"title="Git checkout -b project1">"git checkout -b [nama branch]"</span> tapi ini berbeda setelah membuat nama branch di barengi dengan perintah "<span id="sentenceBold"title="Git checkout project1">git checkout [nama branch]</span>"</li>
+            <li><span id="sentenceBold">Git fetch</span> : Di gunakan untuk mengecek semua perubahan file pada repositori github.</li>
+            <li><span id="sentenceBold"title="Untuk pertama kali bisa menggunakan Git push -u origin atau sipulan master">Git push</span> : Mengirimkan perubahan file repository local ke repository remote.</li>
+            <li><span id="sentenceBold">Git pull</span> : Mengambil perubahan dari repositori remote dan langsung menggabungkannya ke cabang lokal yang sedang aktif. sebenarnya ini adalah kombinasi dari git fetch dan git merge.</li>
+            <li><span id="sentenceBold"title="Git branch project1">Git branch</span> : Untuk membuat nama cabang baru sama seperti perintah <span id="sentenceBold"title="Git checkout -b project1">"git checkout -b [nama branch]"</span> tapi ini berbeda setelah membuat nama branch di barengi dengan perintah "<span id="sentenceBold"title="Git checkout project1">git checkout [nama branch]</span>".</li>
             <li><span id="sentenceBold"title="Git branch -d project1">Git branch -d [nama branch]</span> : Menghapus branch repository lokal bukan remote</li>
-            <li><span id="sentenceBold"title="jika anda berada di branch master contoh Git merge project1">Git merge</span> :  Menggabungkan file dari satu cabang ke cabang lainnya, dan kalau misalkan terjadi conflict file maka harus di perbaiki dan file tersebut harus di commit kembali</li>
-            <li><span id="sentenceBold">Git rebase</span> : Menggabungkan perubahan lebih bersih dan menghindari penggabungan berulang</li>
+            <li><span id="sentenceBold"title="jika anda berada di branch master contoh Git merge project1">Git merge</span> :  Menggabungkan file dari satu cabang ke cabang lainnya, dan kalau misalkan terjadi conflict file maka harus di perbaiki dan file tersebut harus di commit kembali.</li>
+            <li><span id="sentenceBold">Git rebase</span> : Menggabungkan perubahan lebih bersih dan menghindari penggabungan berulang.</li>
         </ol>
     </body>
 </html>
