@@ -11,8 +11,9 @@ body {
 }
 
 h3#titleJuniorProgrammer {
-    color: #31363F;
+    color: #5BBCFF;
     text-align: center;
+    text-shadow: -1px -1px 2px #453C67;
 }
 
 figure.junior-ilustration {
