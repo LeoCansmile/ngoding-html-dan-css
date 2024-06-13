@@ -2,7 +2,6 @@ body {
     font-family: "Comic Neue", cursive;
     font-size: 1.5vw;
     margin: 2% 4%;
-    padding-bottom: 10%;
 }
 
 div.animal-plants {
@@ -49,4 +48,9 @@ img.PlantsFhoto:hover {
 ol.animal.plant li#planttss::marker, li#planttss h3, span#plantword, li.spesies-plantss h4, .plants-eating li::marker, .plants-movement li::marker, .grow-multiply.plants li::marker, .spesies-plantss .reproductions li::marker{
     color: #2E8A99; 
     font-weight: bold;
+}
+
+/* Fix: memberikan jarak space ke dua tag class element <li> */
+li.spesies-plantss, li.spesies-animls {
+    padding-bottom: 10%;
 }
