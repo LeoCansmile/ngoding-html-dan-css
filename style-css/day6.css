@@ -4,12 +4,6 @@ body {
     margin: 2% 4%;
 }
 
-div.animal-plants {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 p a#eukariotik, p a#heterotrof {
     text-decoration: none;
     color: #1679AB;
@@ -26,7 +20,7 @@ p a#eukariotik:hover, p a#heterotrof:hover {
     list-style-type: upper-alpha;
 }
 
-ol.animal.plant li#animallss::marker, li#animallss h3, span#animalword, li.spesies-animls h4, .animal-eating li::marker, .animal-movement li::marker, .animal-moveType li::marker, .grow-multiply.animals li::marker, .spesies-animls .reproductions li::marker{
+ol.spesies-animls li::marker, ol.animal.plant li#animallss::marker, li#animallss h3, span#animalword, ol.spesies-animls h4, .animal-eating li::marker, .animal-movement li::marker, .animal-moveType li::marker, .grow-multiply.animals li::marker, .spesies-animls .reproductions li::marker{
     color: #BE3144; 
     font-weight: bold;
 }
@@ -45,12 +39,11 @@ img.PlantsFhoto:hover {
     filter: drop-shadow(1px 2px 1px #658439);
 }
 
-ol.animal.plant li#planttss::marker, li#planttss h3, span#plantword, li.spesies-plantss h4, .plants-eating li::marker, .plants-movement li::marker, .grow-multiply.plants li::marker, .spesies-plantss .reproductions li::marker{
+ol.spesies-plantss li::marker, ol.animal.plant li#planttss::marker, li#planttss h3, span#plantword, ol.spesies-plantss h4, .plants-eating li::marker, .plants-movement li::marker, .grow-multiply.plants li::marker, .spesies-plantss .reproductions li::marker{
     color: #2E8A99; 
     font-weight: bold;
 }
 
-/* Fix: memberikan jarak space ke dua tag class element <li> */
-li.spesies-plantss, li.spesies-animls {
+ol.spesies-plantss, ol.spesies-animls {
     padding-bottom: 10%;
 }
