@@ -8,18 +8,24 @@
     <title>Mengenal Hewan dan Tumbuhan Ngoding Day HTML & CSS </title>
 </head>
 <body>
- <div class="animal-plants">
+ <header class="animal-plants">
     <h2>Mengenal <span id="animalword">Hewan</span> dan <span id="plantword">Tumbuhan</span></h2>
     <p><span id="animalword">Hewan</span> adalah organisme <a href="https://gemini.google.com/app/23cf4a60514e993f"alt="multiseluler-eukariotik"target="blank_"id="eukariotik">multiseluler eukariotik<sup>[1]</sup></a> yang tidak mampu membuat makanannya sendiri (<a href="https://gemini.google.com/app/155d2c6b14c71bf7"alt="organisme-hidup-yang-tidak-bisa-bikin-makanan-sendiri-lewat-fotosintesis"target="blank_"id="heterotrof">heterotrof<sup>[2]</sup></a>)., sedangkan <span id="plantword">Tumbuhan</span> adalah organisme multiseluler eukariotik yang mampu membuat makanannya sendiri melalui proses fotosintesis.</p>
     <h3>Roadmap Kehidupan Hewan dan tumbuhan</h3>
-    <ol>
+    </header>
+
+
+  <main>
+    <article>
+    <section class="animal-section">
+      <ol class="spesies-animls">
     <!-- line About Animal-->
         <ol class="animal plant">
             <li id="animallss"><h3>Hewan</h3></li>
         </ol>
 
         <!-- Spesies animals -->
-        <li class="spesies-animls"><span id="animalword">Hewan</span> adalah Organisme multiseluler eukariotik yang tidak mampu membuat makanannya sendiri (heterotrof).
+        <li><span id="animalword">Hewan</span> adalah Organisme multiseluler eukariotik yang tidak mampu membuat makanannya sendiri (heterotrof).
         <h4>Cara Makan :</h4>
 
         <!-- Line Animal Eating -->
@@ -65,53 +71,60 @@
 
         </li>
         <!-- Line End About Animal & Spesies Animal -->
+      </ol>
+    </section>
+    </article>
 
 
 
+    <article>
+      <section class="plant-section">
+        <ol class="spesies-plantss"start="2">
         <!-- Starting Line About PlantS -->
-        <ol class="animal plant"start="2">
-            <li id="planttss"><h3>Tumbuhan</h3></li>
-        </ol>
+              <ol class="animal plant"start="2">
+                  <li id="planttss"><h3>Tumbuhan</h3></li>
+              </ol>
 
-        <li class="spesies-plantss"><span id="plantword">Tumbuhan</span> adalah Organisme multiseluler eukariotik yang mampu membuat makanannya sendiri melalui proses fotosintesis.
+        <li><span id="plantword">Tumbuhan</span> adalah Organisme multiseluler eukariotik yang mampu membuat makanannya sendiri melalui proses fotosintesis.
             <h4>Cara Makan :</h4>
 
         <!-- Plant eating -->
-            <ul class="plants-eating">
-                <li><span id="plantword">Tumbuhan</span> : makhluk autotrof, artinya mereka dapat membuat makanannya sendiri melalui fotosintesis. Fotosintesis adalah proses yang menggunakan energi cahaya matahari, air, dan karbon dioksida untuk menghasilkan glukosa (gula) dan oksigen.</li>
-            </ul>
+                <ul class="plants-eating">
+                    <li><span id="plantword">Tumbuhan</span> : makhluk autotrof, artinya mereka dapat membuat makanannya sendiri melalui fotosintesis. Fotosintesis adalah proses yang menggunakan energi cahaya matahari, air, dan karbon dioksida untuk menghasilkan glukosa (gula) dan oksigen.</li>
+                </ul>
         <!-- Line end plant eating -->
 
         <!-- Fhoto about plants -->
-            <img class="PlantsFhoto"src="img/plants.png" alt="Semak belukar yang tumbuh di bebatuan">
+                 <img class="PlantsFhoto"src="img/plants.png" alt="Semak belukar yang tumbuh di bebatuan">
         <!-- Line End fhoto plants -->
 
             <h4>Pergerakan :</h4>
             <!-- Plants Movement -->
-            <ul class="plants-movement">
+                <ul class="plants-movement">
                 <li><span id="plantword">Tumbuhan</span> : Tumbuhan pada umumnya tidak dapat bergerak bebas. Ada beberapa jenis tumbuhan yang menunjukkan gerakan, seperti saat mengikuti arah matahari, namun gerakan ini sangat terbatas.</li>
-        </ul>
+                </ul>
         <!-- Line end Plants Movement -->
 
         <h4>Pertumbuhan dan Perkembangan :</h4>
         <!-- Grow & multiply Plants -->
-        <ul class="grow-multiply plants">
+            <ul class="grow-multiply plants">
             <li><span id="plantword">Tumbuhan</span> : Tumbuhan tumbuh dan berkembang dengan cara menambah jumlah daun, batang, dan akar. Tumbuhan memiliki jaringan dan organ yang berbeda untuk fotosintesis, pengangkutan air dan mineral, serta reproduksi.</li>
-        </ul>
+            </ul>
         <!-- Line End grow & multiply plants -->
 
         <h4>Reproduksi :</h4>
         <!-- Reproductions Plants -->
-        <ul class="reproductions">
+            <ul class="reproductions">
             <li><span id="plantword">Tumbuhan</span> : Tumbuhan bereproduksi secara seksual maupun aseksual. Reproduksi seksual pada tumbuhan melibatkan penyerbukan dan pembuahan untuk menghasilkan biji. Reproduksi aseksual pada tumbuhan dapat terjadi melalui stek, tunas, dan spora.</li>
-        </ul>
+            </ul>
         <!-- Line End Plants Reproductions-->
 
         
         </li>
         <!-- Line End About Plants & Spesies Plants -->
     </ol>
-
-    </div>
+    </section>
+    </article>
+    </main>
 </body>
 </html>
