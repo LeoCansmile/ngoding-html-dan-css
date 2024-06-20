@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ngoding Day 7 HTML & CSS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-css/day7.css" type="text/css"/>
+</head>
+<body>
+    <form action="#" method="GET">
+    <table>
+            <tr>
+                <th colspan="2">Registrasi Login</th>
+            </tr>
+            <tr>
+            <td><label for="FullName">Full Name</label></td>
+            <td><input type="text" id="FullName" name="FullName" minlength="8" maxlength="12" size="19" placeholder="Isikan Full Name" pattern="[A-Za-z]+" title="Jangan menggunakan spasi atau string" required autofocus/></td>
+            </tr>
+
+            <tr>
+                <td><label for="KataSandi">Password</label></td>
+                <td><input type="password" id="KataSandi" name="KataSandi" placeholder="Isikan Password Max 8" size="19" minlength="4" maxlength="9"/></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email" name="email" size="19" placeholder="Email dengan benar" pattern=".+@gmail\.com" required/></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"id="checkBox"><label for="Coding">Apa yang anda kerjakan coding hari ini?</label></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><input type="checkbox" id="HTML" name="HTML"/><label for="HTML">HTML</label>
+
+                <input type="checkbox" id="CSS" name="CSS"/>
+                <label for="CSS">CSS</label>
+
+                <input type="checkbox" id="JavaScript" name="JavaScript"/><label for="JavaScript">Java Script</label></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><label for="hobby">Apa Hobby Kamu selain coding dan baca dokumentasi untuk sekarang?</label></td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input type="radio" id="Memancing" name="hobby"/>
+                    <label for="Memancing">Fishing</label>
+
+                    <input type="radio" id="Basketball" name="hobby"/>
+                    <label for="Basketball">Basket</label>
+
+                    <input type="radio" id="Game" name="hobby"/>
+                    <label for="Game">Game</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><label for="files">Choose Posting your file :</label></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><input type="file" id="files" name="files" accept=".jpeg, .jpg, .png, .bmp" required/></td>
+            </tr>
+
+            <tr>
+                <td><label for="Select-country">YourRegion:</td>
+                <td>
+                    <select id="Select-country" name="Country">
+                        <option value="#">Plz Choose Your Country</option>
+                        <option value="Indonesia">-- +62 Indonesia</option>
+                        <option value="French">-- +33 Perancis</option>
+                        <option value="China">-- +86 China</option>
+                        <option value="Rusia">-- +7 Rusia</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><button id="Submit" name="Submit" type="Submit">Log in</button></td>
+            </tr>
+    </table>
+</form>
+</body>
+</html>
