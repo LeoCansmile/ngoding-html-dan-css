@@ -1,5 +1,12 @@
+@font-face {
+    font-family: 'sourcecodepro-light';
+    src: url('../font/sourcecodepro-light.woff2') format('woff2'),
+         url('../font/sourcecodepro-light.woff') format('woff');
+}
+
 body {
-    font-family: "Comic Neue", cursive;
+    font-family: 'sourcecodepro-light', Consolas;
+    font-weight: bold;
     font-size: 1.5vw;
     margin: 2% 4%;
 }

@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'sourcecodepro-light';
+    src: url('../font/sourcecodepro-light.woff2') format('woff2'),
+         url('../font/sourcecodepro-light.woff') format('woff');
+}
+
+
 *, html {
     padding: 0;
     margin: 0;
@@ -6,7 +13,18 @@
 
 body {
     background-color: #EEEEEE;
-    font-size: 17px;
+    font-family: 'sourcecodepro-light', Consolas;
+    font-weight: 600;
+}
+
+h3 {
+    font-family: "Comic Neue", Consolas;
+    font-size: 1.3em;
+}
+
+h3 ~ h4 {
+    font-family: "Comic Neue", Consolas;
+    font-size: 1.2em;
 }
 
 h3::after {
@@ -15,24 +33,33 @@ h3::after {
 
 div.alg-stry {
     margin: 10px 20px 0px;
-    font-family: "Comic Neue", cursive;
 }
 
 div.alg-stry h3, div.alg-stry h4 {
     text-align: center;
 }
 
+div.alg-stry h4 ~ p {
+    font-size: .9em;
+}
+
 div.alg-stry span#algo {
-    color: #7E8EF1;
+    color: #1833DC;
 }
 
 div.alg-stry span#mtk {
     font-style: italic;
-    font-weight: bold;
+    font-family: "Comic Neue", Consolas;
 }
 
 div.alg-stry span#mtk a {
+    font-size: 1.1em;
+    color: #DE3163;
+    font-weight: 900;
     text-decoration: none;
-    color: #1a34a5;
+}
+
+div.alg-stry span#mtk a:hover {
     cursor: pointer;
+    color: #000000;
 }
