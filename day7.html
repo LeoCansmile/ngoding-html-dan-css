@@ -11,7 +11,7 @@
     <form action="#" method="GET">
     <table>
             <tr>
-                <th colspan="2">Registrasi Login</th>
+                <th colspan="2"><h2>Registrasi Login</h2></th>
             </tr>
             <tr>
             <td><label for="FullName">Full Name</label></td>
@@ -42,7 +42,7 @@
             </tr>
 
             <tr>
-                <td colspan="2"><label for="hobby">Apa Hobby Kamu selain coding dan baca dokumentasi untuk sekarang?</label></td>
+                <td colspan="2"class="rdio"><label for="hobby">Apa Hobby Kamu selain coding dan baca dokumentasi untuk sekarang?</label></td>
             </tr>
 
             <tr>
@@ -63,7 +63,7 @@
             </tr>
 
             <tr>
-                <td colspan="2"><input type="file" id="files" name="files" accept=".jpeg, .jpg, .png, .bmp" required/></td>
+                <td colspan="2"><input type="file" id="files" name="files" accept=".jpeg, .jpg, .png, .bmp" required title="Plz Upload file"/></td>
             </tr>
 
             <tr>
@@ -80,7 +80,13 @@
             </tr>
 
             <tr>
-                <td colspan="2"><button id="Submit" name="Submit" type="Submit">Log in</button></td>
+                <td colspan="2">
+                    <label><input name="privacy" type="checkbox" required/> I have read and I agree to the Privacy Policy.</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" id="tombol"><button id="Submit" name="Submit" type="Submit">Login</button></td>
             </tr>
     </table>
 </form>
